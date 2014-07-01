@@ -1,0 +1,19 @@
+{
+  "name": "saml-parser",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui qunit tests/*.js"
+  },
+  "dependencies": {
+    "mocha": "*",
+    "xml2js": "^0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.webbylab.com:koorchik/saml-parser.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
