@@ -7,8 +7,12 @@
     "test": "mocha --reporter spec --ui qunit tests/*.js"
   },
   "dependencies": {
+    "crypto": "0.0.3",
+    "es6-promises": "^1.0.8",
     "mocha": "*",
-    "xml2js": "^0.4.4"
+    "xml-crypto": "^0.1.24",
+    "xml2js": "^0.4.4",
+    "xmldom": "^0.1.19"
   },
   "repository": {
     "type": "git",
