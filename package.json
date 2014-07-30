@@ -9,7 +9,7 @@
   "dependencies": {
     "crypto": "0.0.3",
     "es6-promises": "^1.0.8",
-    "xml-crypto": "https://github.com/leandrob/xml-crypto/tarball/master",
+    "xml-crypto": "0.1.x",
     "xml2js": "^0.4.4",
     "xmldom": "^0.1.19"
   },
