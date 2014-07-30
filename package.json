@@ -1,7 +1,7 @@
 {
   "name": "saml-parser",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Parse and validate SAML2.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --ui qunit tests/*.js"
@@ -9,8 +9,7 @@
   "dependencies": {
     "crypto": "0.0.3",
     "es6-promises": "^1.0.8",
-    "mocha": "*",
-    "xml-crypto": "^0.1.24",
+    "xml-crypto": "https://github.com/leandrob/xml-crypto/tarball/master",
     "xml2js": "^0.4.4",
     "xmldom": "^0.1.19"
   },
@@ -18,6 +17,13 @@
     "type": "git",
     "url": "git@gitlab.webbylab.com:koorchik/saml-parser.git"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "koorchik",
+    "url": "http://webbylab.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^1.10.3",
+    "mocha": "^1.21.3"
+  }
 }
