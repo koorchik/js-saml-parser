@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.webbylab.com:koorchik/saml-parser.git"
+    "url": "git@github.com:koorchik/js-saml-parser.git"
   },
   "author": {
     "name": "koorchik",
